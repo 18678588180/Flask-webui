@@ -13,6 +13,9 @@ cache = Cache(app, config={
 
 
 
+
+
+
 # 定义首页路由
 @app.route('/')
 def index():
