@@ -12,12 +12,14 @@ cache = Cache(app, config={
 })
 
 
+# "https://www.baidu.com"
 
 
 
 
 # 定义首页路由
 @app.route('/')
+
 def index():
     return render_template('app/templates/index.html')
 
