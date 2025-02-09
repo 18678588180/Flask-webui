@@ -11,6 +11,7 @@ cache = Cache(app, config={
     'CACHE_TYPE': 'simple'  # 或使用 redis
 })
 
+# "123456"
 
 
 # 定义首页路由
